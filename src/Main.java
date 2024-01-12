@@ -7,11 +7,10 @@ public class Main {
 
         if (amount > 1000) {
             bonus = amount / 100 * 1;
-
         } else {
             bonus = 0;
         }
         balance = balance + amount + bonus;
-        System.out.println(balance);
+        System.out.println("Итоговая сумма составит: " + balance);
     }
 }
